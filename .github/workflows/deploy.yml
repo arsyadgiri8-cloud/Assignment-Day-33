@@ -25,11 +25,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build application with Maven
-        run: |
-          cd assignmentday33
-          chmod +x mvnw
-          ./mvnw clean package -DskipTests
-
+        run: ./mvnw clean package -DskipTests
 
       - name: Login to DockerHub
         uses: docker/login-action@v3
