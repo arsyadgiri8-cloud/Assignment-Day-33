@@ -1,8 +1,8 @@
 services:
   spring-deploy-student8-app:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: assignmentday33
+      dockerfile: assignmentday33/Dockerfile
     image: ${DOCKERHUB_USERNAME}/spring-deploy-student8-app:latest
     container_name: spring-deploy-student8-app
     ports:
