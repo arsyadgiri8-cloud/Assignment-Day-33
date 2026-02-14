@@ -2,6 +2,7 @@
 Mini project backend menggunakan Spring Boot yang sudah berhasil di-deploy ke VPS menggunakan Docker + GitHub Actions.
 
 Project ini dibuat sebagai bagian dari Back End Web Development Bootcamp.
+
 ---
 ## 🚀 Base URL (VPS)
 ```
